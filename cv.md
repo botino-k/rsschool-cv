@@ -25,9 +25,9 @@ function highAndLow(numbers){
 ```
 ## **Experience**
 🐛
-## :mortar_board:**Education**
+## **Education**
 + [RS School Front-end 2021q3 stage1](https://app.rs.school)
 + Peoples' Friendship University of Russia, Civil Engineering, master's degree 
-## :earth_americas:**Languages**
+## **Languages**
 English (intermediate)
 
