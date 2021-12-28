@@ -1,6 +1,7 @@
 ![Gavrilova Maria](assets/img/cv.jpg)
 # **Gavrilova Maria**
-## ☎️ **Contact information:** 
+
+## ☎️**Contact information:** 
 + __Location:__ Russia, Moscow
 + __Tel:__+7(915)067-94-16
 + __Email:__ lassmary@bk.ru
