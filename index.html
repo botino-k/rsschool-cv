@@ -1,12 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:wght@100;300;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Yuji+Hentaigana+Akebono&display=swap"
+    rel="stylesheet">
+  <title>CV</title>
 </head>
+
 <body>
-  
+  <div class="container">
+    <header class="header">
+      <nav class="nav">
+        <ul class="header-nav">
+          <li>about</li>
+          <li>contacts</li>
+          <li>education</li>
+          <li>skills</li>
+          <li>code</li>
+          <li>courses</li>
+          <li>projects</li>
+          <li>language</li>
+        </ul>
+      </nav>
+      <div class="greeting">
+        <div class="avatar">
+          <img src="./assets/img/cv2.png" alt="avatar">
+        </div>
+        <div class="name">
+          <h1 class="main-name">Hi! I'm <br>Gavrilova Maria </h1>
+          <p class="post">JUNIOR FRONT-END DEVELOPER</p>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="main-section" id="about">
+        <h2>about me</h2>
+        <p class="description">I’m a civil engineer. But I want to try my hand at something new. I have a technical
+          education. I want to improve my english. I want to became a part of society of developers that includes many
+          interesting people.</p>
+      </section>
+      <section class="main-section" id="skills">
+        <h2>skills</h2>
+        <ul>
+          <li>HTML5 </li>
+          <li>CSS3/SASS </li>
+          <li>JavaScript </li>
+          <li>Git, Github</li>
+          <li>Figma </li>
+          <li>WebPack</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="education">
+        <h2>education</h2>
+        <p class="education">Peoples’ Friendship University of Russia</p>
+        <p class="education">Civil Engineering, master’s degree</p>
+      </section>
+
+      <section class="main-section" id="code">
+        <h2>code</h2>
+        <pre><code class="description" data-language="javascript">function HighLow(num){
+  let a = num.split(' ');
+  let b = `${Math.max(...a)} 
+           ${Math.min(...a)}`;
+  return (b);
+}</code></pre>
+      </section>
+      <section class="main-section" id="courses">
+        <h2>courses</h2>
+        <a href="https://ru.code-basics.com/">HTML, CSS, JavaScript</a>
+        <br>
+        <a href="https://www.freecodecamp.org/">freecodecamp</a>
+      </section>
+      <section class="main-section" id="projects">
+        <h2>projects</h2>
+        <a href="https://botino-k.github.io/cssMemSlider/">cssMemSlider</a>
+      </section>
+      <section class="main-section" id="language">
+        <h2>language</h2>
+        <p>English (intermediate)</p>
+      </section>
+      <section class="main-section" id="contacts">
+        <h2>contacts</h2>
+        <ul class="contacts">
+          <li>Russia, Moscow </li>
+          <li><a href="mailto:lassmary@bk.ru" title="email">lassmary@bk.ru</a></li>
+          <li> Github: <a href="https://github.com/botino-k" title="github">botino-k</a> </li>
+          <li>Telegram: <a href="https://t.me/sivelia" title="telegram">sivelia</a></li>
+          <li> Discord: <a href="https://discord.gg/uRcx26Tv" title="discord">Maria Gavrilova#2823</a> </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+<div>2022</div>
+<div><a href="https://github.com/botino-k" title="github">botino-k</a></div>
+<a href="https://rs.school/js/" class="rss-logo"></a>
+    </footer>
+  </div>
 </body>
+
 </html>
