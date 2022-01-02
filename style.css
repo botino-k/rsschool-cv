@@ -1,3 +1,58 @@
-html {
-  font-size: 10px;
+img{
+  width: 100%;
+}
+html{
+  background: rgba(238, 224, 224, 0.603);
+}
+
+
+body{
+font-size: 10px;
+
+}
+
+.container{
+border: 2px solid rgb(131, 96, 96);
+background: rgb(255, 255, 255);
+margin: 0 auto;
+max-width: 1200px;
+}
+
+.header{
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.nav{
+
+display: flex;
+justify-content:end;
+text-transform: uppercase;
+letter-spacing: 0.05rem;
+ }
+.header-nav{
+padding-bottom: 1rem;
+display: flex;
+width: 60%;
+justify-content:space-around;
+flex-wrap:wrap;
+}
+
+.header-nav li{
+list-style-type: none;
+padding-left: 1rem;
+}
+.header-nav:last-child{
+  padding-right: 1rem; 
+}
+.greeting{
+display: flex;
+justify-content:space-around;
+border-bottom: 5px solid rgba(146, 73, 5, 0.637);
+padding-bottom: 1rem;
+}
+
+.main-name{
+  font-family: 'Indie Flower', cursive;
+  font-size: 4rem;
 }
