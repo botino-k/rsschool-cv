@@ -138,11 +138,3 @@ code {
   background-color: rgb(131, 96, 96);
   min-height: 4rem;
 }
-
-.rss-logo {
-  width: 121px;
-  height: 45px;
-  background-image: url(./assets/icon/rs_school_js.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
